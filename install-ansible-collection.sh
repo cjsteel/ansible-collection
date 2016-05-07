@@ -51,8 +51,11 @@ git clone ${PRIMARY_GIT_ACCOUNT_URL}/ansible-${PRIMARY_ANSIBLE_PROJECT_NAME}.git
 mkdir $PROJECTS_DIRECTORY/${PRIMARY_ANSIBLE_PROJECT_NAME}/roles
 cd $PROJECTS_DIRECTORY/${PRIMARY_ANSIBLE_PROJECT_NAME}/roles
 
+# git clone ${PRIMARY_GIT_ACCOUNT_URL}/ansible-role-ace.git ace
 git clone ${PRIMARY_GIT_ACCOUNT_URL}/ansible-role-vagrant.git vagrant
 git clone ${PRIMARY_GIT_ACCOUNT_URL}/ansible-role-virtualbox.git virtualbox
+git clone ${PRIMARY_GIT_ACCOUNT_URL}/ansible-role-iso.git iso
+git clone ${PRIMARY_GIT_ACCOUNT_URL}/ansible-cobbler.git cobbler
 
 # Clone Secondary Accounts Ansible roles
 #

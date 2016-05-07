@@ -13,6 +13,7 @@ a collection of ansible projecs, roles and other scripts and things to setup you
 
     mkdir -p ~/projects
 
+
 ### Clone this repository
 
     cd ~/projects
